@@ -1,7 +1,5 @@
 (function () {
     setTimeout(() => {
-        // loadHome();
-        // tncAccept();
         $('input[type=radio]').change(function() {
             $(`.block`).map((v) => {
                 $($(`.block`)[v]).removeClass("active");
@@ -23,7 +21,7 @@ function loadHome() {
             <div class="branding">
                 <div class="branding_info">
                     <div class="icon_wrapper">
-                        <img src="/assets/images/png/brand.png" />
+                        <img src="/gsk/assets/images/png/brand.png" />
                     </div>
                     <div class="branding_msg">Welcome to gsk</div>
                     <div class="sub_info">Find more benefits for your pharmacy inside</div>
