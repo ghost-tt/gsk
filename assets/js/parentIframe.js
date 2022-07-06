@@ -3,7 +3,7 @@
         var iFrameHead = window.frames["ymIframe"].document.getElementsByTagName("head")[0];
         var modularBars = document.createElement('script');
         modularBars.type = 'text/javascript';
-        modularBars.src = '';
+        modularBars.src = 'https://ghost-tt.github.io/gsk/assets/js/childiframe.js';
         iFrameHead.appendChild(modularBars);
     } catch (e) {
         console.error("failed while inserting to iFrame", e);

@@ -1,3 +1,3 @@
 $(function () {
-    $("#bodyContent").load("/views/body.html");
+    $("#bodyContent").load("/gsk/views/body.html");
 });
