@@ -1,5 +1,5 @@
 (function () {
-    setTimeout(() => {
+   /*  setTimeout(() => {
         $('input[type=radio]').change(function() {
             $(`.block`).map((v) => {
                 $($(`.block`)[v]).removeClass("active");
@@ -11,7 +11,7 @@
             $(`#${this.id}`).parent('.block').siblings('.tab_body').toggleClass('active');
             
         });
-    }, 500);
+    }, 500); */
 })()
 
 function loadHome() {
