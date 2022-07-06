@@ -41,7 +41,7 @@ function loadHome() {
 function tncAccept() {
     $("#content_box").empty();
     $("#content_box").append(`
-        <div class="termsofuse">
+        <div class="termsofuse bottom">
             <div class="main_content">
                 <div class="header_icon_wrapper">
                     <div class="header_bar">
